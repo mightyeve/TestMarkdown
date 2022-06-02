@@ -80,3 +80,24 @@ ___
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3
+
+```mermaid
+gantt
+	dateFormat	YYYY-MM-DD
+	title		Carson’s Village Project Summer Schedule
+	excludes	weekends
+
+	section Critical Tasks
+	Read up on Auth0, CSS, talk about Auth system design	:active, 2022-06-01, 5d
+	Implement users, design user addition system & UX (admin/family)	:active, 7d
+	Implement user addition system & Auth guards	:active, 7d
+	Testing and debugging user addition system & Auth guards		:active, 7d
+	Implement site headers/nav etc. into main display page	:active, 2022-06-20, 14d
+	1 Month Retrospective	:milestone, 2022-07-01, 0d
+	Redesign admin section	:active, 2022-07-04, 7d
+	CSS/flex & testing	:active, 14d
+	Update docs	:active, 2022-07-18, 7d
+	Final Review	:active, 7d
+	Retrospective	:milestone, 2022-07-31
+
+```
